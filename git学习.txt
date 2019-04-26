@@ -1,2 +1,2 @@
 git merge --no-ff -m "merge with no-ff" dev
-
+merge with no-ff
