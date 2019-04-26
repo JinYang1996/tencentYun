@@ -13,3 +13,8 @@ git log --graph --pretty=oneline --abbrev-commit
 5.合并后的历史有分支，能看出来曾经做过合并
 git merge --no-ff -m "merge with no-ff" dev
 
+6.删除文件
+git rm readme.txt
+
+7.还原版本
+git reset --hard HEAD^
