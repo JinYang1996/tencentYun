@@ -1,4 +1,5 @@
 一.安装vue
+打开cmd命令行
 1.安装vue首先要安装node.js，安装完npm也会自动安装
 查询是否安装成功命令：
 node -v
@@ -22,3 +23,7 @@ npm run dev
 
 6.结束项目运行：
 ctrl+v,选择Y即可停止项目运行
+
+node.js安装地址：
+http://nodejs.cn/download/
+

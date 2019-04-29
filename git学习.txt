@@ -18,3 +18,6 @@ git rm readme.txt
 
 7.还原版本
 git reset --hard HEAD^
+
+8.把目录变成git可以管理的仓库
+git init
