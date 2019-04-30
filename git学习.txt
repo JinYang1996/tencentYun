@@ -1,0 +1,27 @@
+﻿1.关联一个远程库命令
+git remote add origin git@github.com:flora0103/example.git
+
+2.推送master分支的所有内容命令
+git push -u origin master
+
+3.验证是否成功
+ssh -T git@github.com
+
+4.看到分支的合并情况
+git log --graph --pretty=oneline --abbrev-commit
+
+5.合并后的历史有分支，能看出来曾经做过合并
+git merge --no-ff -m "merge with no-ff" dev
+
+6.删除文件
+git rm readme.txt
+
+7.还原版本
+git reset --hard HEAD^
+
+8.把目录变成git可以管理的仓库
+git init
+
+9.git pull 失败 ，提示: fatal: refusing to merge unrelated histories
+强制方法，把两段不相干的分支进行强行合并：
+git pull origin master --allow-unrelated-histories
